@@ -1,7 +1,11 @@
 # Three-Tier AWS VPC Terraform-based
 
 
-Example of a three-tier AWS VPC based on Terraform. It creates 22 resources:
+Example of a three-tier AWS VPC based on Terraform. 
+
+![Screenshot](images/vpc.drawio.png)
+
+It creates 22 resources:
 
 - aws_db_subnet_group.database[0]
 - aws_eip.nat[0]
@@ -27,6 +31,6 @@ Example of a three-tier AWS VPC based on Terraform. It creates 22 resources:
 - aws_vpc.this[0]
 
 
-![Screenshot](images/vpc.drawio.png)
+
 
 
